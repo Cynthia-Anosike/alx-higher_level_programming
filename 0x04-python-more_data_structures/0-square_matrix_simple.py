@@ -1,5 +1,4 @@
-quare_matrix_simple(matrix=[]):
-        return [list(map(lambda x: x ** 2, row)) for row in matrix]#!/usr/bin/python3
+#!/usr/bin/python3
 
-    def square_matrix_simple(matrix=[]):
-            return [list(map(lambda x: x ** 2, row)) for row in matrix]
+def square_matrix_simple(matrix=[]):
+    return [list(map(lambda x: x ** 2, row)) for row in matrix]
